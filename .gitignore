@@ -131,3 +131,4 @@ dist
 
 # cypresss
 cypress.env.json
+cypress/videos

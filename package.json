@@ -4,7 +4,8 @@
   "description": "Cypress Demo - Topicos Especiais Eng de Software 1",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "test:ci": "cypress run --record --key 8df75bd8-1d53-49e9-93c8-c177eb705bb2"
   },
   "keywords": [
     "cypress",
