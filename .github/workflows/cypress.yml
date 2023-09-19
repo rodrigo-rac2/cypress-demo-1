@@ -1,7 +1,7 @@
 name: Cypress Tests
 on:
   schedule:
-    - cron: '0 11,23 * * *' # Run every Sunday at midnight
+    - cron: '56 11,23 * * *'
   push:
   pull_request:
   workflow_dispatch:
