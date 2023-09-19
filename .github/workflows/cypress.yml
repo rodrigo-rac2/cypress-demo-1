@@ -1,7 +1,13 @@
 name: Cypress Tests
 on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
   schedule:
-    - cron: "09 11,23 * * *"
+    - cron: "30 11,23 * * *"
   workflow_dispatch:
 
 jobs:
