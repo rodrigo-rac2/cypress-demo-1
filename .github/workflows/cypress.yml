@@ -1,5 +1,11 @@
 name: Cypress Tests
-on: [push, pull_request, workflow_dispatch]
+on:
+  schedule:
+    - cron: '0 11,23 * * *' # Run every Sunday at midnight
+  push:
+  pull_request:
+  workflow_dispatch:
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
